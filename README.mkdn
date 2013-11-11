@@ -1,4 +1,4 @@
-This is a Android manifest forked from rascarlo mainly modified to build rasbeanjelly ROM for deb (Nexus7 2013, LTE version).
+This is a Android manifest forked from rascarlo mainly modified to build rastakat ROM for deb (Nexus7 2013, LTE version).
 
 All credits and many thanks go to rascarlo!
 

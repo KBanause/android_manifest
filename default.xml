@@ -5,6 +5,8 @@
            fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
+  <remote name="kbanause"
+           fetch="git://github.com/KBanause/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
   <default revision="refs/tags/android-4.4_r1"
@@ -433,6 +435,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr1" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="kbanause" revision="kk-kba-mr1.0" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="kbanause" revision="kk-kba-mr1" />
 
 </manifest>

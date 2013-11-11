@@ -1,6 +1,13 @@
-repo init -u https://github.com/rascarlo/android_manifest.git -b kk-ras-mr1
+This is a Android manifest forked from rascarlo mainly modified to build rasbeanjelly ROM for deb (Nexus7 2013, LTE version).
 
-i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
+All credits and many thanks go to rascarlo!
+
+If you want to build rasbeanjelly for flo you can init the repo with the following command:
+
+repo init -u https://github.com/kbanause/android_manifest.git -b jb-ras-kba1
+
+i am @kbanause on Twitter
+
 
 flashable builds for grouper, hammerhead, mako and manta can be found on http://fitsnugly.euroskank.com/?rom=rasbeanjelly
 
